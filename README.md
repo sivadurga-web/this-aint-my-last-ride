@@ -15,7 +15,7 @@ If a player wins a particular round the enemy speed increases in the next round.
 
 ### Game design
 >Controls :
-UP DOWN LEFT RIGHT : for Player1
+UP DOWN LEFT RIGHT : for Player1 \
 >W A S D : for Player2
 For better gaming experience :
 * I hv declared 4 dedicated variables for up down left and right...instead of 2 variables
