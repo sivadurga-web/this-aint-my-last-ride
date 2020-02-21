@@ -15,3 +15,4 @@ For better gaming experience :
 • I hv declared 4 dedicated variables for up down left and right...instead of 2 variables
 •The collision theory used is pixel perfect rather than distance and AABB .
 Which allows narrow escape for the player.
+![](https://github.com/cyk-psych/this-aint-my-last-ride/blob/master/miss.png?raw=true)
