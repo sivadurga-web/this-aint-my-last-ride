@@ -3,7 +3,8 @@
 ### **Description :**
 >This video game is made using python and pygame only.
 
-This is a 2 player game where 2 players compete each other and the player with higher score wins the game. There are 4 rounds in this game.
+- This is a 2 player game where 2 players compete each other and the player with higher score wins the game. 
+- There are 4 rounds in this game.
 >
 Score increases by 5 if you cross an obstacle and by 10 for a moving one.
 >
