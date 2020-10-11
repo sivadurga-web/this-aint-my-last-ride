@@ -4,9 +4,10 @@ import pygame
 import config
 import random
 
-pygame.init()
-clock = pygame.time.Clock()
-screen = pygame.display.set_mode((config.sw, config.sh))
+pygame.init() #intialize pygame
+clock = pygame.time.Clock() #initializes py game clock
+screen = pygame.display.set_mode((config.sw, config.sh)) #screen width configuration
+#initialising the player scores and other variables with 0
 p1s = 0
 p1e = 0
 p2s = 0
@@ -51,11 +52,12 @@ def crash(x):
         display_crash_text -= 1
         pygame.display.flip()
 
-
+p1_boat = "boat.png"
+p2_boat ="boat2.png"
 pygame.display.set_caption('this aint my last ride')
 running = True
-player = pygame.image.load('boat.png').convert_alpha()
-player2 = pygame.image.load('boat2.png').convert_alpha()
+player = pygame.image.load(p1_boat).convert_alpha()
+player2 = pygame.image.load(p2_boat).convert_alpha()
 player = pygame.transform.scale(player, (80, 40))
 player2 = pygame.transform.scale(player2, (80, 40))
 
@@ -357,6 +359,7 @@ while running:
     screen.blit(player2, (player2_rect[0], player2_rect[1]))
     pygame.display.flip()
     clock.tick(40)
+#Displaing winner
 if p1score > p2score:
     crash('GAME OVER  ,P1 , You win')
 elif p2score > p1score:
